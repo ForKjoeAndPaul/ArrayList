@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @author Derevenskikh Roman
  */
 
-public class ArrayList<E> {
+public class NewArrayList<E> {
 
     private static final int DEFAULT_CAPACITY = 5;
 
@@ -23,7 +23,7 @@ public class ArrayList<E> {
     /**
      * Constructs an empty list with an initial capacity of DEFAULT_CAPACITY.
      */
-    public ArrayList() {
+    public NewArrayList() {
         this.elementData = new Object[DEFAULT_CAPACITY];
     }
 
@@ -33,7 +33,7 @@ public class ArrayList<E> {
      * @param initialCapacity the initial capacity of the list
      * @throws IllegalArgumentException - if the specified initial capacity is wrong
      */
-    public ArrayList(int initialCapacity) {
+    public NewArrayList(int initialCapacity) {
         if (initialCapacity >= 0) {
             this.elementData = new Object[initialCapacity];
         } else throw new IllegalStateException("Размер списка не может быть меньше 0");

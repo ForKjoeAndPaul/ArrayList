@@ -8,15 +8,15 @@ import java.util.StringJoiner;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ArrayListTest {
+public class NewArrayListTest {
 
-    private ArrayList<Integer> testIntegerList;
-    private ArrayList<String> testStringList;
+    private NewArrayList<Integer> testIntegerList;
+    private NewArrayList<String> testStringList;
 
     @BeforeEach
     public void setUp() {
-        testIntegerList = new ArrayList<>();
-        testStringList = new ArrayList<>();
+        testIntegerList = new NewArrayList<>();
+        testStringList = new NewArrayList<>();
     }
 
     @AfterEach

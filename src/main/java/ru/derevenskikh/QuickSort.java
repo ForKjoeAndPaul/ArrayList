@@ -6,7 +6,7 @@ public class QuickSort {
      * Static method for sort elements
      * @param list - object of class "MyArrayList", elements of which implements Comparable interface
      */
-    public static void sort(ArrayList<? extends Comparable> list) {
+    public static void sort(NewArrayList<? extends Comparable> list) {
         quickSort(0, list.size() - 1, list);
     }
 
@@ -16,7 +16,7 @@ public class QuickSort {
      * @param low        - bound of array
      * @param high       - bound of array
      */
-    private static void quickSort(int low, int high, ArrayList<? extends Comparable> list) {
+    private static void quickSort(int low, int high, NewArrayList<? extends Comparable> list) {
         Object[] elementData = list.getElementData();
 
         if (low >= high) {

@@ -9,11 +9,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 
 public class QuickSortTest {
-    private ArrayList<Integer> testIntegerList;
+    private NewArrayList<Integer> testIntegerList;
 
     @BeforeEach
     public void setUp(){
-        testIntegerList = new ArrayList<>();
+        testIntegerList = new NewArrayList<>();
     }
 
     @AfterEach
